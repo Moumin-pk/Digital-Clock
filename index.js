@@ -23,11 +23,7 @@ function showTime(){
         // h = 12 - 13 = 1
     }
 
-    // Determine whether it's AM or PM
-
-    if (h >= 12){
-        section = 'PM' 
-    }
+    
 
 // Construct the formatted time string
 var time = h + " : " + m +" : "+ s + "  " + section;
