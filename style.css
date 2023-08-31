@@ -1,11 +1,40 @@
+body{
+    background-color: black;
+    
+}
+
 h2{
     text-align: center;
     font-family: Verdana;
     font-size: 50px;
+    color: white;
 }
 h1{
     font-size: 100px;
     text-align: center;
     font-family: Verdana;
-    color: rosybrown;
+    color: burlywood;
+    animation: colorchange 5s infinite ;
+    text-shadow: 5px -5px 5px 
+
 }
+
+@keyframes colorchange {
+    0%{
+        color: burlywood;
+    }
+    25%{
+        color: brown;
+    }
+    50%{
+        color: #7eff33;
+    }
+    75%{
+        color: rosybrown;
+    }
+    100%{
+        color: royalblue;
+
+    }
+}
+
